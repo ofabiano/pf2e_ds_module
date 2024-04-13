@@ -1,0 +1,156 @@
+{
+  "id": "pf2e_darksun",
+  "title": "Dark Sun for PF 2ed",
+  "description": "Dark Sun (by Shawn Bowman) module adapted for Path Finder 2ed",
+  "url": "https://github.com/ofabiano/",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Fabiano de Oliveira",
+      "email": "ofabiano@gmail.com",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.15.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "label": "Feats",
+      "type": "Item",
+      "name": "feats",
+      "path": "./packs/feats",
+      "system": "pf2e",
+      "package": "pf2e_darksun",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Spells",
+      "type": "Item",
+      "name": "spells",
+      "path": "./packs/spells",
+      "system": "pf2e",
+      "package": "pf2e_darksun",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Ancestries",
+      "type": "Item",
+      "name": "ancestries",
+      "path": "./packs/ancestries",
+      "system": "pf2e",
+      "package": "pf2e_darksun",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+        "name": "Characer Building (Dark Sun)",
+        "sorting": "a",
+        "packs": [
+          "feats",
+          "spells",
+          "ancestries"
+        ]
+    }
+  ],
+  "flags": {
+    "pf2e_darksun": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "ds-baseweapon-ds-teste1": "BaseWeapon 1 (Dark Sun)",
+          "ds-baseweapon-ds-teste2": "BaseWeapon 2 (Dark Sun)"
+        },
+        "creatureTraits": {
+          "ds-creature-trait-1": {
+            "label": "Creature Trait 1 (Dark Sun)",
+            "description": "<p>Descrição</p><p>com 2 parágrafos</p>"
+          },
+          "ds-creature-trait-2": {
+            "label": "Creature Trait 2 (Dark Sun)",
+            "description": "Descrição com 1 parágrafo"
+          }
+        },
+        "damageTypes": {
+          "ds-damage-type-1": {
+            "label": "Damage Type 1 (Dark Sun)",
+            "description": "<p>Descrição</p><p>com 2 parágrafos</p>",
+            "category": "energy",
+            "icon": "fa-radiation"
+          },
+          "ds-damage-type-2": {
+            "label": "Damage Type 2 (Dark Sun)",
+            "description": "Descrição com 1 parágrafo",
+            "category": "energy",
+            "icon": "fa-radiation"
+          }
+        },
+        "equipmentTraits": {
+          "ds-equipment-trait-1": {
+            "label": "Equipment Trait 1 (Dark Sun)",
+            "description": "<p>Descrição</p><p>com 2 parágrafos</p>"
+          },
+          "ds-equipment-trait-2": {
+            "label": "Equipment Trait 2 (Dark Sun)",
+            "description": "Descrição com 1 parágrafo"
+          }
+        },
+        "featTraits": {
+          "ds-feat-trait-1": {
+            "label": "Feat Trait 1 (Dark Sun)",
+            "description": "<p>Descrição</p><p>com 2 parágrafos</p>"
+          },
+          "ds-feat-trait-2": {
+            "label": "Feat Trait 2 (Dark Sun)",
+            "description": "Descrição com 1 parágrafo"
+          }
+        },
+        "spellTraits": {
+          "ds-spell-trait-1": {
+            "label": "Spell Trait 1 (Dark Sun)",
+            "description": "<p>Descrição de spell trait</p><p>com 2 parágrafos</p>"
+          },
+          "ds-spell-trait-2": {
+            "label": "Spell Trait 2 (Dark Sun)",
+            "description": "Descrição com 1 parágrafo"
+          }
+        },
+        "weaponTraits": {
+          "ds-weapon-trait-1": {
+            "label": "Weapon Trait 1 (Dark Sun)",
+            "description": "<p>Descrição</p><p>com 2 parágrafos</p>"
+          },
+          "ds-weapon-trait-2": {
+            "label": "Weapon Trait 2 (Dark Sun)",
+            "description": "Descrição com 1 parágrafo"
+          }
+        }
+      }
+    }
+  }
+}
