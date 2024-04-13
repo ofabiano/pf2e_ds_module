@@ -153,6 +153,6 @@
       }
     }
   },
-  "manifest": "https://raw.githubusercontent.com/TikaelSol/PF2e-Expansion-Pack/master/module.json",
-  "download": "https://github.com/TikaelSol/PF2e-Expansion-Pack/archive/refs/heads/main.zip"
+  "manifest": "https://raw.githubusercontent.com/ofabiano/pf2e_ds_module/main/module.json",
+  "download": "https://github.com/ofabiano/pf2e_ds_module/archive/refs/heads/main.zip"
 }
