@@ -3,7 +3,7 @@
   "title": "Dark Sun for PF 2ed",
   "description": "Dark Sun (by Shawn Bowman) module adapted for Path Finder 2ed",
   "url": "https://github.com/ofabiano/pf2e_ds_module/",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -29,13 +29,60 @@
   },
   "packs": [
     {
+      "label": "Ancestries",
+      "type": "Item",
+      "name": "ancestries",
+      "path": "packs/ancestries",
+      "system": "pf2e",
+      "package": "pf2e_darksun",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Heritages",
+      "type": "Item",
+      "name": "heritages",
+      "path": "packs/heritages",
+      "system": "pf2e",
+      "package": "pf2e_darksun",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Classes",
+      "type": "Item",
+      "name": "classes",
+      "path": "packs/classes",
+      "system": "pf2e",
+      "package": "pf2e_darksun",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "Class Features",
+      "type": "Item",
+      "name": "class-features",
+      "path": "packs/class-features",
+      "system": "pf2e",
+      "package": "pf2e_darksun",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "label": "Feats",
       "type": "Item",
       "name": "feats",
-      "path": "./packs/feats",
+      "path": "packs/feats",
       "system": "pf2e",
       "package": "pf2e_darksun",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -45,23 +92,21 @@
       "label": "Spells",
       "type": "Item",
       "name": "spells",
-      "path": "./packs/spells",
+      "path": "packs/spells",
       "system": "pf2e",
       "package": "pf2e_darksun",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     },
     {
-      "label": "Ancestries",
-      "type": "Item",
-      "name": "ancestries",
-      "path": "./packs/ancestries",
+      "label": "Journals",
+      "type": "Journal",
+      "name": "journals",
+      "path": "packs/journals",
       "system": "pf2e",
       "package": "pf2e_darksun",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -73,9 +118,13 @@
         "name": "Characer Building (Dark Sun)",
         "sorting": "a",
         "packs": [
+          "ancestries",
+          "heritages",
+          "classes",
+          "class-features",
           "feats",
           "spells",
-          "ancestries"
+          "journals"
         ]
     }
   ],
@@ -121,13 +170,13 @@
           }
         },
         "featTraits": {
-          "ds-feat-trait-1": {
-            "label": "Feat Trait 1 (Dark Sun)",
-            "description": "<p>Descrição</p><p>com 2 parágrafos</p>"
+          "ds-dwarf": {
+            "label": "Dwarf (Dark sun)",
+            "description": "This indicates abilities from the Dwarf (Dark Sun) ancestry."
           },
-          "ds-feat-trait-2": {
-            "label": "Feat Trait 2 (Dark Sun)",
-            "description": "Descrição com 1 parágrafo"
+          "ds-fighter": {
+            "label": "Fighter (Dark sun)",
+            "description": "This indicates abilities from the Fighter (Dark Sun) class."
           }
         },
         "spellTraits": {
