@@ -1,9 +1,9 @@
 {
   "id": "pf2e_darksun",
   "title": "Dark Sun for PF 2ed",
-  "description": "Dark Sun (by Shawn Bowman) module adapted for Path Finder 2ed",
+  "description": "Dark Sun module adapted for Path Finder 2ed (working in progress)",
   "url": "https://github.com/ofabiano/pf2e_ds_module/",
-  "version": "0.2.2",
+  "version": "0.2.21",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
